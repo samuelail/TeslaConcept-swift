@@ -15,6 +15,8 @@
 		F631564D21C1E128009D94D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F631564B21C1E128009D94D3 /* LaunchScreen.storyboard */; };
 		F631565821C1E128009D94D3 /* teslaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631565721C1E128009D94D3 /* teslaTests.swift */; };
 		F631566321C1E128009D94D3 /* teslaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631566221C1E128009D94D3 /* teslaUITests.swift */; };
+		F631567121C2BD07009D94D3 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631567021C2BD07009D94D3 /* StartViewController.swift */; };
+		F631567321C2FDF7009D94D3 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631567221C2FDF7009D94D3 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F631565E21C1E128009D94D3 /* teslaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teslaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F631566221C1E128009D94D3 /* teslaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teslaUITests.swift; sourceTree = "<group>"; };
 		F631566421C1E128009D94D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F631567021C2BD07009D94D3 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		F631567221C2FDF7009D94D3 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				F631564021C1E11D009D94D3 /* AppDelegate.swift */,
 				F631564221C1E11D009D94D3 /* FirstViewController.swift */,
+				F631567021C2BD07009D94D3 /* StartViewController.swift */,
+				F631567221C2FDF7009D94D3 /* ThirdViewController.swift */,
 				F631564421C1E11D009D94D3 /* SecondViewController.swift */,
 				F631564621C1E11D009D94D3 /* Main.storyboard */,
 				F631564921C1E128009D94D3 /* Assets.xcassets */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F631564521C1E11D009D94D3 /* SecondViewController.swift in Sources */,
+				F631567121C2BD07009D94D3 /* StartViewController.swift in Sources */,
+				F631567321C2FDF7009D94D3 /* ThirdViewController.swift in Sources */,
 				F631564121C1E11D009D94D3 /* AppDelegate.swift in Sources */,
 				F631564321C1E11D009D94D3 /* FirstViewController.swift in Sources */,
 			);
