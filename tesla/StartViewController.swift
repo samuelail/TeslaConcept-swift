@@ -23,6 +23,7 @@ class StartViewController: UIViewController {
         animateLogo()
         
         // Automatically dismiss the view after 5 seconds
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
             let firstVC =
                 self.storyboard?.instantiateViewController(withIdentifier: "FirstVC")
