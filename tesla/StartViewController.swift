@@ -21,6 +21,14 @@ class StartViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         animateLogo()
+        
+        // Automatically dismiss the view after 5 seconds
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+            let firstVC =
+                self.storyboard?.instantiateViewController(withIdentifier: "FirstVC")
+            firstVC?.modalTransitionStyle = .crossDissolve
+            self.present(firstVC!, animated: true, completion: nil)
+        }
     }
     
     func animateLogo() {
@@ -29,15 +37,6 @@ class StartViewController: UIViewController {
             //self.view.layoutIfNeeded()
         }
     
-    }
-    //Fix and make it change vc automatically
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        UIView.animate(withDuration: 2) {
-        let firstVC =
-            self.storyboard?.instantiateViewController(withIdentifier: "FirstVC")
-        firstVC?.modalTransitionStyle = .crossDissolve
-        self.present(firstVC!, animated: true, completion: nil)
-        }
     }
 
 }
